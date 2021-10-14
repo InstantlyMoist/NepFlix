@@ -1,0 +1,18 @@
+/*
+ Theme Name:   twentytwentyonechild
+ Template:     twentytwentyone
+ Text Domain:  twentytwentyone-child
+/
+
+/ 
+==========================
+TinyMCE editor styles.
+==========================
+*/
+body.mce-content-body{
+    max-width: 100%;
+    background: #fff;
+}
+body.mce-content-body::before{
+    position: inherit;
+}
