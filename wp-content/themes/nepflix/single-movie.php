@@ -15,7 +15,7 @@
                     <p>Deze film heeft geen genre</p>
                 <?php endif; ?>
 
-                <img src=<?= $image ? $image : "https://lh3.googleusercontent.com/proxy/hWxD39UKAbAoNwJPNcqDKSxmxtRP2Z2MPLT0WIe6WtmdUc4QVsz6lJGpq_4bVsOg05M0WRC6IKOrVFn6ChnOLCC5VsSY8Oxf" ?>>
+                <img src=<?= $image ? $image : "https://ringostrack.com/storage/covers/imagenotfound.png" ?>>
                 <img><?= get_the_post_thumbnail_url() ?></img>
 
         <?php endwhile;

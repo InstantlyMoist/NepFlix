@@ -15,7 +15,7 @@ $the_query = new WP_Query($args);
                 $category = get_the_category($movie->ID)[0]->name;
                 $image = get_the_post_thumbnail_url($movie);
             ?>
-                <a style="background-image:url(<?= $image ? $image : "https://lh3.googleusercontent.com/proxy/hWxD39UKAbAoNwJPNcqDKSxmxtRP2Z2MPLT0WIe6WtmdUc4QVsz6lJGpq_4bVsOg05M0WRC6IKOrVFn6ChnOLCC5VsSY8Oxf" ?>)" class="moviecard moviecard-all" href=<?= site_url() . "/movies/" . $movie->post_name
+                <a style="background-image:url(<?= $image ? $image : "https://ringostrack.com/storage/covers/imagenotfound.png" ?>)" class="moviecard moviecard-all" href=<?= site_url() . "/movies/" . $movie->post_name
                                                                                                                                                                                                                                              ?>>
                     <p class="title"><?= $movie->post_title ?></p>
                 </a>
